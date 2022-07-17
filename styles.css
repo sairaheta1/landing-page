@@ -22,6 +22,12 @@
 .header-logo-text {
     font-size: 24px;
     color: #f9faf8;
+    margin: 0;
+    margin-right: auto;
+}
+.header-links {
+    display: flex;
+    padding: 0px 30px;
 }
 a {
     text-decoration: none;
@@ -29,4 +35,8 @@ a {
 }
 ul {
     list-style: none;
+    display: flex;
+    margin: 0;
+    margin-left: auto;
+    gap: 20px;
 }
